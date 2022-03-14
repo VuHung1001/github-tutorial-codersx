@@ -1,4 +1,8 @@
 const Dog = require('./Dog')
+const Cat = require('./Cat')
 
-let dog = new Dog('Tom')
+let cat = new Cat('Tom')
+let dog = new Dog('Micky')
 dog.sayHi()
+dog.eat(cat)
+console.log(dog)
