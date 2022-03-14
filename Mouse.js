@@ -1,11 +1,11 @@
 function Mouse (name, action){
   this.name = name
   this.action = action
-  this.dead = false
+  this.isDead = false
 }
 
 Mouse.prototype.die = function(){
-  this.dead = true
+  this.isDead = true
 }
 
 module.exports = Mouse
